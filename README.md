@@ -26,7 +26,7 @@ Pennies:  4
 
 ## Problem Background
 
-The change making problem surprisingly interesting. The solution used in this code is known as a "greedy" algorithm, and is intuitively what anyone would do as a cashier. It has probably been known for as long as people have used currency. It's fast, simple, and it works for *most* types of currency, where it always finds the minimum amount of coins needed to hand back to the customer. It successfully finds the minimum number of coins on the U.S. system, for example. But what if the currency had coins like {4, 3, 1} and we wanted to hand back and amount of 6? The greedy algorithm fails to find an optimal minimal solution:
+The change making problem is surprisingly interesting. The solution used in this code is known as a "greedy" algorithm, and is intuitively what anyone would do as a cashier. It has probably been known for as long as people have used currency. It's fast, simple, and it works for *most* types of currency, where it always finds the minimum amount of coins needed to hand back to the customer. It successfully finds the minimum number of coins on the U.S. system, for example. But what if the currency had coins like {4, 3, 1} and we wanted to hand back and amount of 6? The greedy algorithm fails to find an optimal minimal solution:
 
 ~~~
 // take the maximum amount of the highest currency at each step
